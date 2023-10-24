@@ -1,0 +1,160 @@
+/* INITIAL SETUP */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2.6rem;
+  height: 100vh;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  background-color: #142a31; /*This or the white one for the page text*/
+  color: #7484e8;
+}
+#root {
+  height: 100vh;
+
+  /* align-items: center; */
+}
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  justify-content: center;
+}
+
+/* SECTION STYLES */
+header {
+  width: 120rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+main {
+  width: 120rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .footer {
+  justify-self: center;
+} */
+
+/* PAGE STYLES */
+.startScreen {
+  text-align: center;
+}
+.quiz {
+  width: 120rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.quiz_header {
+  text-align: center;
+}
+#waveform {
+  width: 120rem;
+}
+/* COMPONENTS STYLES*/
+
+/* BUTTONS */
+.btn {
+  /*background-color: #d9f9ff;
+  */
+  /* background-color: #8a74e8; */
+  background-color: #7484e8;
+  color: #2c3f46;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #515ca2;
+  color: #12191c;
+}
+.options {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+  list-style: none;
+  gap: 2rem;
+  cursor: pointer;
+}
+.btn_option {
+  width: 35rem;
+  height: 15rem;
+  font-size: 2.2rem;
+  justify-self: center;
+}
+.correct {
+  background-color: #79cd4c;
+}
+.wrong {
+  background-color: #cc3432;
+  text-decoration: line-through;
+  pointer-events: none;
+}
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.btn_option_1 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+.btn_option_2 {
+  grid-row-start: 1;
+  grid-column-start: 2;
+}
+.btn_option_3 {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+.btn_option_4 {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+.btn_start {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.btn_secondary {
+  width: 45rem;
+  height: 20rem;
+}
+.btn_ternary {
+  width: 10rem;
+  height: 5rem;
+}
+.welcome {
+  align-self: center;
+}
+.control_wrapper {
+  justify-self: flex-start;
+  display: flex;
+  flex-direction: column;
+}
