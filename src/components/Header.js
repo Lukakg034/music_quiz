@@ -12,20 +12,20 @@ export default function Header() {
     <header>
       <h1 className="welcome">Welcome to the React music quiz</h1>
       <div className="control_wrapper">
-        <Volume />
+        {/* <Volume /> */}
         {/* <button
           className="btn btn_ternary"
           title="Click to enable or disable visualisation"
         >
           Disable/enable visualisation
         </button> */}
-        <button
+        {/* <button
           className="btn btn_ternary"
           title={isMuted ? "Unmute" : "Mute"}
           onClick={toggleMute}
         >
           <IconComponent />
-        </button>
+        </button> */}
       </div>
     </header>
   );

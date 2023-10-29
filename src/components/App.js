@@ -84,9 +84,7 @@ function App() {
   }, []);
   return (
     <div className="app">
-      <Header>
-        <Volume />
-      </Header>
+      <Header />
       <Main>
         {status === "error" && <Error />}
         {status === "ready" && (
