@@ -3,7 +3,7 @@
     {
       "questionNumber": 1,
       "question": "What song is this?",
-      "audio": "/audio/song_1.mp3",
+      "audio": "https://lukakg034.github.io/music_quiz/audio/song_1.mp3",
       "options": [
         "Gimme all your lovin' (ZZ top)",
         "Adicted to love (Robert Palmer)",
@@ -16,7 +16,7 @@
     {
       "questionNumber": 2,
       "question": "What song is this?",
-      "audio": "audio/song_2.mp3",
+      "audio": "https://lukakg034.github.io/music_quiz/audio/song_2.mp3",
       "options": [
         "Bad of roses (Bon Jovi)",
         "I am on fire (Bruce Springsteen)",
@@ -29,7 +29,7 @@
     {
       "questionNumber": 3,
       "question": "What song is this?",
-      "audio": "/audio/song_3.mp3",
+      "audio": "https://lukakg034.github.io/music_quiz/audio/song_3.mp3",
       "options": [
         "Rain (Guano Apes)",
         "Ironic (Alanis Morissette)",
@@ -42,7 +42,7 @@
     {
       "questionNumber": 4,
       "question": "What song is this?",
-      "audio": "/audio/song_4.mp3",
+      "audio": "https://lukakg034.github.io/music_quiz/audio/song_4.mp3",
       "options": [
         "Baba O'Riley (The Who)",
         "Here without you (3 doors down)",
@@ -55,7 +55,7 @@
     {
       "questionNumber": 5,
       "question": "What song is this?",
-      "audio": "/audio/song_5.mp3",
+      "audio": "https://lukakg034.github.io/music_quiz/audio/song_5.mp3",
       "options": [
         "Kiss me deadly (Lita Ford)",
         "Ironic (Alanis Morissette)",
@@ -68,7 +68,7 @@
     {
       "questionNumber": 6,
       "question": "What song is this?",
-      "audio": "/audio/song_6.mp3",
+      "audio": "https://lukakg034.github.io/music_quiz/audio/song_6.mp3",
       "options": [
         "Simply irresistible (Robert Palmer)",
         "Ironic (Alanis Morissette)",
@@ -81,7 +81,7 @@
     {
       "questionNumber": 7,
       "question": "What song is this?",
-      "audio": "/audio/song_7.mp3",
+      "audio": "https://lukakg034.github.io/music_quiz/audio/song_7.mp3",
       "options": [
         "The road to hell (Chris Rea)",
         "Ironic (Alanis Morissette)",
@@ -94,7 +94,7 @@
     {
       "questionNumber": 8,
       "question": "What song is this?",
-      "audio": "/audio/song_8.mp3",
+      "audio": "https://lukakg034.github.io/music_quiz/audio/song_8.mp3",
       "options": [
         "Got my mind set on you (George Harrison)",
         "The way it is (Bruce Hornsby)",
@@ -107,7 +107,7 @@
     {
       "questionNumber": 9,
       "question": "What song is this?",
-      "audio": "/audio/song_9.mp3",
+      "audio": "https://lukakg034.github.io/music_quiz/audio/song_9.mp3",
       "options": [
         "The unforgiven (Metallica)",
         "No prayer for the dying (Iron Maiden)",
@@ -120,7 +120,7 @@
     {
       "questionNumber": 10,
       "question": "What song is this?",
-      "audio": "/audio/song_10.mp3",
+      "audio": "https://lukakg034.github.io/music_quiz/audio/song_10.mp3",
       "options": [
         "November rain (Guns n roses)",
         "Cochise (Audioslave)",
