@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/music_quiz/static/css/main.f3778387.css",
-    "main.js": "/music_quiz/static/js/main.112f4efa.js",
+    "main.js": "/music_quiz/static/js/main.0f4dd455.js",
     "static/js/787.fe14a8f9.chunk.js": "/music_quiz/static/js/787.fe14a8f9.chunk.js",
     "index.html": "/music_quiz/index.html",
     "main.f3778387.css.map": "/music_quiz/static/css/main.f3778387.css.map",
-    "main.112f4efa.js.map": "/music_quiz/static/js/main.112f4efa.js.map",
+    "main.0f4dd455.js.map": "/music_quiz/static/js/main.0f4dd455.js.map",
     "787.fe14a8f9.chunk.js.map": "/music_quiz/static/js/787.fe14a8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3778387.css",
-    "static/js/main.112f4efa.js"
+    "static/js/main.0f4dd455.js"
   ]
 }
