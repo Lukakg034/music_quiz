@@ -72,7 +72,10 @@ function App() {
     const fetchingData = async () => {
       try {
         await new Promise((resolve) => setTimeout(resolve, 1000)); //Setting timeout on fetch call
-        const response = await fetch("/data/quizData.json");
+        const response = await fetch(
+          "https://lukakg034.github.io/music_quiz/data/quizData.json"
+        );
+        // const response = await fetch("/data/quizData.json");
         const data = await response.json();
         //Dispatching data from fetch
         dispatch({ type: "dataReceived", payload: data.questions });
